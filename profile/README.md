@@ -1,25 +1,52 @@
 # PlantiFy
 ### Plant + Amplify
+**환경 | 사회 + 통합**
 
 <br />
 
 ## 👥 TEAM
-### (FE) 이채민 | (BE) 서승주 | (ML) 최호윤
+### (FE) [이채민](https://github.com/Chaemin-L) | (BE) [서승주](https://github.com/seunzu) | (ML) [최호윤](https://github.com/choihoyoon)
 
 <br />
 
 ## 📌 Links
-### [전체 PPT](https://www.canva.com/design/DAGZycqp5p0/6H2V6GBv_i5jC1ECYBMMjA/edit?utm_content=DAGZycqp5p0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+### 1️⃣ [전체 PPT](https://www.canva.com/design/DAGZycqp5p0/6H2V6GBv_i5jC1ECYBMMjA/edit?utm_content=DAGZycqp5p0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   - 기술 설명 첨부
-### [Notion](https://plantify.notion.site/Plantify-dd4ed7aaca484705bc615fd61ab90128?pvs=74)
-### ERD
+### 2️⃣ [Notion](https://plantify.notion.site/Plantify-dd4ed7aaca484705bc615fd61ab90128?pvs=74)
+**[에러 처리 및 로직 고민(깨달음 줍줍)](https://plantify.notion.site/14386c5edd3f80faa536eb4103adf45f?pvs=74)**
+- **FE**
+  - 카드 컴포넌트 스타일링 재사용 방식 비교
+  - 필터링을 가지는 리스트 모두 클라이언트 컴포넌트로 구현해야하는가?
+  - 커스텀 타입 체크
+  - useForestField 커스텀 훅으로 분리
+  - 카드 이미지 방향 설정 util 함수 구현
+- **BE**
+  - 결제 시스템(Pay-Transaction-Payment)
+    - 결합도
+    - 외부 클라이언트
+    - 실제 결제할 때 한 번 더 확인?
+    - 포인트 및 실결제
+    - 계좌 예외 처리
+    - 취소 및 환불
+  - Acitivity History
+  - 관리자
+  - 코드 분리
+  - 아이템(GraphQL)
+  - 채팅방(gRPC, WebFlux + Netty)
+- **ML**
+  - 추천 시스템 응답시간 최적화
+  - 챗봇 수정
+  - Text-to-SQL 기반 View 생성 흐름
+  - API 호출 vs DB 직접 호출
+  - 답변 다양성 확보
+### 3️⃣ ERD
 - [PlantiFy](https://www.erdcloud.com/d/awbxiaSAtHhjo8zBb)
 - [Payment](https://www.erdcloud.com/d/LEJnHrfr5Zp8bPpjp)
 
 <br />
 
 ## 🎬 VIDEO
-
+[![Video Label](http://img.youtube.com/vi/4E-r_jH5Ti0/0.jpg)](https://youtu.be/4E-r_jH5Ti0)
 
 <br />
 
